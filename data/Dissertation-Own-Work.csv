@@ -1,0 +1,15 @@
+Paper,URL,Country,Mean,SD,scale-min,scale-max,year,N,Visualization-level,SAE,Uncertainty,Own,Exclude,Reason,Remarks,metric,remarks_display,publication,metric-min,metric-max
+core-colley2021effects,https://doi.org/10.1145/3411764.3445351,Germany,"3,31","0,76",1,7,2021,41,None,5,No,Yes,FALSE,,only with real video,1,,,0,100
+core-colley2021effects,https://doi.org/10.1145/3411764.3445351,Germany,"3,32","0,75",1,7,2021,41,Sit. Detection,5,Yes,Yes,FALSE,,only with real video,"84,2","(%, mIoU)",\cite{Cheng_2020_CVPR},0,100
+core-colley2020effect,https://doi.org/10.1145/3409120.3410648,Germany,"3,86","1,46",1,7,2020,15,None,5,No,Yes,FALSE,,,1,,,0,100
+core-colley2020effect,https://doi.org/10.1145/3409120.3410648,Germany,"5,33","1,86",1,7,2020,15,Sit. Prediction,5,Yes,Yes,FALSE,,AR three clarity states,75,(sim.),,0,100
+core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,76","0,96",1,5,2022,216,None,5,No,Yes,FALSE,,,1,,,0,100
+core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,46","0,92",1,5,2022,216,Sit. Detection,5,Yes,Yes,FALSE,,only singular added,"84,2","(%, mIoU)",\cite{Cheng_2020_CVPR},0,100
+core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,59","1,19",1,5,2022,216,Sit. Prediction,5,Yes,Yes,FALSE,,only singular added,"59,9",(ped. via AP; veh. sim.),,0,100
+core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,17","1,08",1,5,2022,216,Man. Planning,5,Yes,Yes,FALSE,,only singular added,70,(sim.),,0,100
+core-ar4cad,https://dl.acm.org/doi/abs/10.1145/3546712,Germany,,,,,2022,18,,5,No,Yes,TRUE,Special use case?,,1,,,0,100
+core-2022feedback,https://dl.acm.org/doi/abs/10.1145/3543174.3545255,USA,,,,,2022,,,5,No,Yes,TRUE,Special use case?,,1,,,0,100
+core-colley2023trajectory,,USA,"3,77","0,78",1,5,2023,280,Man. Planning,5,Yes,Yes,FALSE,,only with real video,80,"(est. ""goodness"")",\cite{speidel2021},0,100
+core-colley2023trajectory,,USA,"3,62","0,9",1,5,2023,280,Sit. Prediction,5,Yes,Yes,TRUE,,only with real video,"4,19","(minFDE1, lower is better; not directly comparable to AP)",\cite{Strohbeck2020},0,100
+core-colley2023trajectory,,USA,"3,93","0,79",1,5,2023,280,Multiple,5,Yes,Yes,FALSE,,only with real video,1,,,0,100
+core-colley2023trajectory,,USA,"3,28","0,91",1,5,2023,280,None,5,No,Yes,FALSE,,only with real video,1,,,0,100
