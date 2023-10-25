@@ -1,15 +1,37 @@
-Paper,URL,Country,Mean,SD,scale-min,scale-max,year,N,Visualization-level,SAE,Uncertainty,Own,Exclude,Reason,Remarks,metric,remarks_display,publication,metric-min,metric-max
-core-colley2021effects,https://doi.org/10.1145/3411764.3445351,Germany,"3,31","0,76",1,7,2021,41,None,5,No,Yes,FALSE,,only with real video,1,,,0,100
-core-colley2021effects,https://doi.org/10.1145/3411764.3445351,Germany,"3,32","0,75",1,7,2021,41,Sit. Detection,5,Yes,Yes,FALSE,,only with real video,"84,2","(%, mIoU)",\cite{Cheng_2020_CVPR},0,100
-core-colley2020effect,https://doi.org/10.1145/3409120.3410648,Germany,"3,86","1,46",1,7,2020,15,None,5,No,Yes,FALSE,,,1,,,0,100
-core-colley2020effect,https://doi.org/10.1145/3409120.3410648,Germany,"5,33","1,86",1,7,2020,15,Sit. Prediction,5,Yes,Yes,FALSE,,AR three clarity states,75,(sim.),,0,100
-core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,76","0,96",1,5,2022,216,None,5,No,Yes,FALSE,,,1,,,0,100
-core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,46","0,92",1,5,2022,216,Sit. Detection,5,Yes,Yes,FALSE,,only singular added,"84,2","(%, mIoU)",\cite{Cheng_2020_CVPR},0,100
-core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,59","1,19",1,5,2022,216,Sit. Prediction,5,Yes,Yes,FALSE,,only singular added,"59,9",(ped. via AP; veh. sim.),,0,100
-core-colley2022scene,https://doi.org/10.1145/3534609,USA,"3,17","1,08",1,5,2022,216,Man. Planning,5,Yes,Yes,FALSE,,only singular added,70,(sim.),,0,100
-core-ar4cad,https://dl.acm.org/doi/abs/10.1145/3546712,Germany,,,,,2022,18,,5,No,Yes,TRUE,Special use case?,,1,,,0,100
-core-2022feedback,https://dl.acm.org/doi/abs/10.1145/3543174.3545255,USA,,,,,2022,,,5,No,Yes,TRUE,Special use case?,,1,,,0,100
-core-colley2023trajectory,,USA,"3,77","0,78",1,5,2023,280,Man. Planning,5,Yes,Yes,FALSE,,only with real video,80,"(est. ""goodness"")",\cite{speidel2021},0,100
-core-colley2023trajectory,,USA,"3,62","0,9",1,5,2023,280,Sit. Prediction,5,Yes,Yes,TRUE,,only with real video,"4,19","(minFDE1, lower is better; not directly comparable to AP)",\cite{Strohbeck2020},0,100
-core-colley2023trajectory,,USA,"3,93","0,79",1,5,2023,280,Multiple,5,Yes,Yes,FALSE,,only with real video,1,,,0,100
-core-colley2023trajectory,,USA,"3,28","0,91",1,5,2023,280,None,5,No,Yes,FALSE,,only with real video,1,,,0,100
+Paper;URL;Country;Mean;SD;scale-min;scale-max;year;N;Visualization-level;SAE;Uncertainty;Own;Exclude;Reason;Remarks;metric;remarks_display;publication;metric-min;metric-max
+core-colley2021effects;https://doi.org/10.1145/3411764.3445351;Germany;3.31;0.76;1;7;2021;41;None;5;No;Yes;FALSCH;;only with real video;1;;;0;100
+core-colley2021effects;https://doi.org/10.1145/3411764.3445351;Germany;3.32;0.75;1;7;2021;41;Sit. Detection;5;Yes;Yes;FALSCH;;only with real video;84.2;(%, mIoU);\cite{Cheng_2020_CVPR};0;100
+core-colley2020effect;https://doi.org/10.1145/3409120.3410648;Germany;3.86;1.46;1;7;2020;15;None;5;No;Yes;FALSCH;;;1;;;0;100
+core-colley2020effect;https://doi.org/10.1145/3409120.3410648;Germany;5.33;1.86;1;7;2020;15;Sit. Prediction;5;Yes;Yes;FALSCH;;AR three clarity states;75;(sim.);;0;100
+core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.76;0.96;1;5;2022;216;None;5;No;Yes;FALSCH;;;1;;;0;100
+core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.46;0.92;1;5;2022;216;Sit. Detection;5;Yes;Yes;FALSCH;;only singular added;84.2;(%, mIoU);\cite{Cheng_2020_CVPR};0;100
+core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.59;1.19;1;5;2022;216;Sit. Prediction;5;Yes;Yes;FALSCH;;only singular added;59.9;"(ped. via AP; veh. sim.)";;0;100
+core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.17;1.08;1;5;2022;216;Man. Planning;5;Yes;Yes;FALSCH;;only singular added;70;(sim.);;0;100
+core-ar4cad;https://dl.acm.org/doi/abs/10.1145/3546712;Germany;;;;;2022;18;;5;No;Yes;WAHR;Special use case?;;1;;;0;100
+core-2022feedback;https://dl.acm.org/doi/abs/10.1145/3543174.3545255;USA;;;;;2022;;;5;No;Yes;WAHR;Special use case?;;1;;;0;100
+core-colley2023trajectory;;USA;3.77;0.78;1;5;2023;280;Man. Planning;5;Yes;Yes;FALSCH;;only with real video;80;"(est. ""goodness"")";\cite{speidel2021};0;100
+core-colley2023trajectory;;USA;3.62;0.9;1;5;2023;280;Sit. Prediction;5;Yes;Yes;WAHR;;only with real video;4.19;"(minFDE1, lower is better; not directly comparable to AP)";\cite{Strohbeck2020};0;100
+core-colley2023trajectory;;USA;3.93;0.79;1;5;2023;280;Multiple;5;Yes;Yes;FALSCH;;only with real video;1;;;0;100
+core-colley2023trajectory;;USA;3.28;0.91;1;5;2023;280;None;5;No;Yes;FALSCH;;only with real video;1;;;0;100
+core-colley2024visualizing;;Germany;;;1;5;2023;;Multiple;5;;Yes;WAHR;;mutiple vis.;;;;0;100
+core-colley2024bo;;USA;;;1;5;2023;;Multiple;5;;Yes;WAHR;;"No ""one"" visualization";;;;0;100
+core-colley2024trust;;USA;3.930769231;1.125383391;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;67.87;(%, mIoU);;0;100
+core-colley2024trust;;USA;3.892307692;1.063824852;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;68.27;(%, mIoU);;0;100
+core-colley2024trust;;USA;3.926923077;1.067692467;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;69.54;(%, mIoU);;0;100
+core-colley2024trust;;USA;3.861538462;1.168075646;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;70.23;(%, mIoU);;0;100
+core-colley2024trust;;USA;3.930769231;1.005322745;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;71.11;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.038461538;0.939271086;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;72.25;(%, mIoU);;0;100
+core-colley2024trust;;USA;3.996153846;0.995135755;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;73.61;(%, mIoU);;0;100
+core-colley2024trust;;USA;3.973076923;0.984987188;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;74.09;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.123076923;0.938127647;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;75.13;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.061538462;0.97052568;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;76.26;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.011538462;0.975405669;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;77.1;(%, mIoU);;0;100
+core-colley2024trust;;USA;4;0.970494959;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;78.22;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.134615385;0.9519227;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;79.09;(%, mIoU);;0;100
+core-colley2024trust;;USA;3.976923077;1.011295773;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;80.09;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.076923077;0.879264885;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;80.97;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.080769231;0.951954021;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;81.35;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.138461538;0.869409905;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;82.58;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.192307692;0.836160975;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;83.68;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.165384615;0.911571736;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;85.16;(%, mIoU);;0;100
+core-colley2024trust;;USA;4.196153846;0.890292509;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;86.2;(%, mIoU);;0;100
