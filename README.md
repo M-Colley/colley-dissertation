@@ -5,4 +5,4 @@ The relevant data can be found in the folder `data`. This is already the combina
 
 The shiny apps can be found in the folder `shiny-r`. For them to work, you require the `.csv` in the `data` folder.
 
-
+The code for the Structural Equation Model can be found in the folder `sem`. For them to work, you require the `.csv` in the `data` folder.
