@@ -6,13 +6,13 @@ core-colley2020effect;https://doi.org/10.1145/3409120.3410648;Germany;5.33;1.86;
 core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.76;0.96;1;5;2022;216;None;5;No;Yes;FALSCH;;;1;;;0;100
 core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.46;0.92;1;5;2022;216;Sit. Detection;5;Yes;Yes;FALSCH;;only singular added;84.2;;\cite{Cheng_2020_CVPR};0;100
 core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.59;1.19;1;5;2022;216;Sit. Prediction;5;Yes;Yes;FALSCH;;only singular added;59.9;"(ped. via AP; veh. sim.)";;0;100
-core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.17;1.08;1;5;2022;216;Man. Planning;5;Yes;Yes;FALSCH;;only singular added;70;(sim.);;0;100
+core-colley2022scene;https://doi.org/10.1145/3534609;USA;3.17;1.08;1;5;2022;216;Traj. Planning;5;Yes;Yes;FALSCH;;only singular added;70;(sim.);;0;100
 core-ar4cad;https://dl.acm.org/doi/abs/10.1145/3546712;Germany;;;;;2022;18;;5;No;Yes;WAHR;Special use case?;;1;;;0;100
 core-2022feedback;https://dl.acm.org/doi/abs/10.1145/3543174.3545255;USA;;;;;2022;;;5;No;Yes;WAHR;Special use case?;;1;;;0;100
-core-colley2023trajectory;;USA;3.77;0.78;1;5;2023;280;Man. Planning;5;Yes;Yes;FALSCH;;only with real video;80;"(est. ""goodness"")";\cite{speidel2021};0;100
-core-colley2023trajectory;;USA;3.62;0.9;1;5;2023;280;Sit. Prediction;5;Yes;Yes;WAHR;;only with real video;4.19;"(minFDE1, lower is better; not directly comparable to AP)";\cite{Strohbeck2020};0;100
-core-colley2023trajectory;;USA;3.93;0.79;1;5;2023;280;Multiple;5;Yes;Yes;FALSCH;;only with real video;1;;;0;100
-core-colley2023trajectory;;USA;3.28;0.91;1;5;2023;280;None;5;No;Yes;FALSCH;;only with real video;1;;;0;100
+core-colley2023trajectory;https://dl.acm.org/doi/abs/10.1145/3631408;USA;3.77;0.78;1;5;2023;280;Traj. Planning;5;Yes;Yes;FALSCH;;only with real video;80;"(est. ""goodness"")";\cite{speidel2021};0;100
+core-colley2023trajectory;https://dl.acm.org/doi/abs/10.1145/3631408;USA;3.62;0.9;1;5;2023;280;Sit. Prediction;5;Yes;Yes;WAHR;;only with real video;4.19;"(minFDE1, lower is better; not directly comparable to AP)";\cite{Strohbeck2020};0;100
+core-colley2023trajectory;https://dl.acm.org/doi/abs/10.1145/3631408;USA;3.93;0.79;1;5;2023;280;Multiple;5;Yes;Yes;FALSCH;;only with real video;1;;;0;100
+core-colley2023trajectory;https://dl.acm.org/doi/abs/10.1145/3631408;USA;3.28;0.91;1;5;2023;280;None;5;No;Yes;FALSCH;;only with real video;1;;;0;100
 core-colley2024visualizing;;Germany;;;1;5;2023;;Multiple;5;;Yes;WAHR;;mutiple vis.;;;;0;100
 core-colley2024bo;;USA;;;1;5;2023;;Multiple;5;;Yes;WAHR;;"No ""one"" visualization";;;;0;100
 core-colley2024trust;;USA;3.930769231;1.125383391;1;5;2023;;Sit. Detection;5;;Yes;FALSCH;;;67.87;;;0;100
